@@ -1,31 +1,25 @@
-# Assign a variable for the file to load and the path.
-# file_to_load = 'Resources/election_results.csv'
-
-# Open the election results and read the file.
-# with open(file_to_load) as election_data:
-
-    # To do: perform analysis.
-    # print(election_data)
-# Close the file.
-# election_data.close()
-
 # Add our dependencies.
 import csv
 import os
+
 # Assign a variable to load a file from a path.
 file_to_load = os.path.join(os.path.dirname(__file__), "Resources", "election_results.csv")
 print(file_to_load)
+
 # Assign a variable to save the file to a pth.
 file_to_save = os.path.join("analysis", "election_analysis.txt")
+
 # Initialize a total vote counter.
 total_votes = 0
 # Candidate Options and candidate votes
+
 candidate_options = []
 candidate_votes = {}
-# Track the winning candidate, vote count, and percentage.
+# Track the winning candidate, vote count, and percentage. 
 winning_candidate = ""
 winning_count = 0 
 winning_percentage = 0
+
 # Open the election results and read the file.
 with open(file_to_load) as election_data:
     file_reader = csv.reader(election_data)
