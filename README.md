@@ -14,6 +14,9 @@ A Colorado Board of Elections employee named Tom, has given me the following tas
 - Software: Python 3.6.1 Visual Studio Code, 1.38.1
 
 ## Summary
+<img width="343" alt="election_results" src="https://user-images.githubusercontent.com/85920136/148452931-6aee4372-8637-4f97-92d5-27ac0c86c3d8.png">
+
+
 The analysis of the election show that:
 - There were 369,711 votes cast in the election.
 - The candidates were:
